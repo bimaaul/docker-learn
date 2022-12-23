@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.wrapper {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 128px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputContainer > input {
+  padding: 4px;
+}
+
+.inputContainer > button {
+  background-color: aliceblue;
+  padding: 2px 4px;
+  margin-left: 8px;
+}
+
+.resultContainer {
+  margin-top: 16px;
+  min-height: 24px;
+}
