@@ -25,7 +25,7 @@ function InspigoTest() {
         <div className={inputStyle.wrapper}>
           <div className={inputStyle.inputContainer}>
             <input ref={inputRef} onChange={resetValidation} type="text" />
-            <button onClick={handleValidateInput}>Evaluate</button>
+            <button onClick={handleValidateInput}>Evaluate Number</button>
           </div>
           <div className={inputStyle.resultContainer}>{data}</div>
         </div>
